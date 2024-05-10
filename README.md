@@ -24,27 +24,51 @@ Modular Design: Organizes code into functions, such as the roll_a_dice function,
 # Program Alogthrim
 
 Start
+
 Import necessary libraries like time, random, and sys for program functionality.
+
 Define a function roll_a_dice to simulate rolling a specified number of dice with a given number of sides.
+
 Initialize an empty list to store the results.
+
 Iterate through each die:
+
 Generate a random number between 1 and the number of sides.
+
 Append the result to the results list.
+
 Return the list of results.
+
 Start an infinite loop:
+
 Prompt the user to type '1' to roll the dice or '0' to quit.
+
 If the input is not a digit, prompt the user to enter a number.
+
 If the input is '1', break out of the loop.
+
 If the input is '0', exit the program.
+
 Otherwise, prompt the user to enter '1' to continue or '0' to quit.
+
 Start an infinite loop:
+
 Prompt the user to enter the number of dice.
+
 Prompt the user to enter the number of sides on each die.
+
 Display a message indicating the start of the rolling process.
+
 Roll the dice using the roll_a_dice function.
+
 Print each roll result with a delay for user visibility.
+
 Prompt the user if they want to roll again.
+
 If the input is 'yes', continue to the next iteration of the loop.
+
 If the input is 'no', exit the program.
+
 Otherwise, prompt the user to enter 'yes' to roll again or 'no' to quit.
+
 Stop
